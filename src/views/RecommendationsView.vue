@@ -23,7 +23,7 @@ export default {
     if (!this.$store.state.user.login) {
       this.$router.replace('/login')
     }
-    this.$router.replace('/recommendations/settings')
+    this.$router.replace('/recommendations/questionnaire')
   }
 }
 </script>
