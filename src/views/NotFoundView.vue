@@ -1,6 +1,7 @@
 <template>
   <div class="not-found-view">
     <h1>404</h1>
+  </div>
 </template>
 
 <style lang="stylus" scoped>

@@ -99,6 +99,7 @@
                 <br>
               </span>
             </div>
+          </div>
         </section>
         <section id="header-right">
           <div id="short-comment">

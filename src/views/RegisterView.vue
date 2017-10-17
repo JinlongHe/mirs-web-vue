@@ -45,7 +45,7 @@
                 <mu-text-field v-model.trim="verification" :errorText="verificationError" label="验证码" hintText="请输入邮箱中收到的验证码" @textOverflow="handleVerificationOverflow" type="text" :maxLength="6" icon="sms" fullWidth labelFloat/><br/>
               </div>
               <div class="verification-button-div">
-                <mu-flat-button :label="sendEmailStatus" @click="sendEmail" class="verification-button" :disabled="sentEmailTimeout !== 0">
+                <mu-flat-button :label="sendEmailStatus" @click="sendEmail" class="verification-button" :disabled="sentEmailTimeout !== 0" />
               </div>
             </div>
           </div>
@@ -65,6 +65,7 @@
         </template>
       </div>
     </div>
+  </div>
 </template>
 
 <script>

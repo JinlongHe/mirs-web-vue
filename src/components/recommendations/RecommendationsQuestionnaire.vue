@@ -37,6 +37,7 @@
 	    	<span>详细地址: </span><mu-text-field hintText="详细地址"/><br/>
     	</div>
     	<mu-raised-button label="提交" class="demo-raised-button" primary/>
+    </div>
   </div>
 </template>
 <script>
